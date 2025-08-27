@@ -74,6 +74,7 @@ def sigmoid(x: float) -> float:
 def relu(x: float) -> float:
     return (x > 0) * x
 
+
 EPS = 1e-6
 
 
